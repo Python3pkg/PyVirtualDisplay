@@ -40,7 +40,7 @@ htmlhelp_basename = '%sdoc' % project
 
 # latex build settings
 latex_documents = [
-    ('index', '%s.tex' % project, u'%s Documentation' % project,
+    ('index', '%s.tex' % project, '%s Documentation' % project,
      author, 'manual'),
 ]
 

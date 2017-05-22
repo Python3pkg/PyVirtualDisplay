@@ -40,19 +40,19 @@ class Test(TestCase):
 
 def test_repr():
     display = Display()
-    print(repr(display))
+    print((repr(display)))
 
 
 def test_repr2():
     display = XvfbDisplay()
-    print(repr(display))
+    print((repr(display)))
 
 
 def test_repr3():
     display = XvncDisplay()
-    print(repr(display))
+    print((repr(display)))
 
 
 def test_repr4():
     display = XephyrDisplay()
-    print(repr(display))
+    print((repr(display)))
